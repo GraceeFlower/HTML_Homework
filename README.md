@@ -1,2 +1,2 @@
 # HTML_Homework
-A homework about HTML, created by several forms.
+A homework about HTML, mainly created by several forms.
