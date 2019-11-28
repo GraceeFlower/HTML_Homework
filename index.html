@@ -7,9 +7,9 @@
 </head>
 <body>
   <div>
-    <div>
-      <h1>统一建模语言理论考试</h1>
-      <form action="">
+    <form action="">
+      <div>
+        <h1>统一建模语言理论考试</h1>
         <table>
           <tr>
             <td>考试科目：</td>
@@ -28,26 +28,24 @@
             <td><input type="text" value="王敏" /></td>
           </tr>
         </table>
-      </form>
-    </div>
-    <div>
-      <h2>一、填空题（每空5分，共20分）</h2>
-      <div>
-        <label for="fill-1">
-          1. UML的中文全称是：
-          <input type="text" id="fill-1" value="统一建模语言"/>
-        </label>
       </div>
       <div>
-        <label for="fill-2">2. 对象最突出的特征是：</label>
-        <input type="text" id="fill-2" value="封装性" />
-        <input type="text" value="继承性" />
-        <input type="text" value="多态性" /> 
+        <h2>一、填空题（每空5分，共20分）</h2>
+        <div>
+          <label for="fill-1">
+            1. UML的中文全称是：
+            <input type="text" id="fill-1" value="统一建模语言"/>
+          </label>
+        </div>
+        <div>
+          <label for="fill-2">2. 对象最突出的特征是：</label>
+          <input type="text" id="fill-2" value="封装性" />
+          <input type="text" value="继承性" />
+          <input type="text" value="多态性" /> 
+        </div>
       </div>
-    </div>
-    <div>
-      <h2>二、选择题（每题10分，共20分）</h2>
-      <form action="">
+      <div>
+        <h2>二、选择题（每题10分，共20分）</h2>
         <h3>1. UML与软件工程的关系是：</h3>
         <div>
           <input name="first-choose" id="first-choice" type="radio" />
@@ -65,8 +63,6 @@
           <input name="first-choose" id="forth-choice" type="radio" />
           <label for="forth-choice">（D）UML是软件工程的一部分</label>
         </div>
-      </form>
-      <form action="">
         <h3>2. Java语言支持</h3>
         <div>
           <input name="second-choose" id="s-first-choice" type="radio" checked />
@@ -84,11 +80,9 @@
           <input name="second-choose" id="s-forth-choice" type="radio" />
           <label for="s-forth-choice">（D）单继承和多继承都不支持</label>
         </div>
-      </form>
-    </div>
-    <div>
-      <h2>三、多择题（每题10分，共20分）</h2>
-      <form action="">
+      </div>
+      <div>
+        <h2>三、多择题（每题10分，共20分）</h2>
         <h3>1. 用例的粒度分为以下哪三种：</h3>
         <div>
           <input name="first-multi" id="first-m-choice" type="checkbox" checked/>
@@ -106,8 +100,6 @@
           <input name="first-multi" id="forth-m-choice" type="checkbox" checked/>
           <label for="forth-m-choice">（D）子功能级</label>
         </div>
-      </form>
-      <form action="">
         <h3>2. 类图由以下哪三部分组成：</h3>
         <div>
           <input name="second-multi" id="first-sm-choice" type="checkbox" checked/>
@@ -125,11 +117,9 @@
           <input name="second-multi" id="forth-sm-choice" type="checkbox" />
           <label for="forth-sm-choice">（D）方法(Function)</label>
         </div>
-      </form>
-    </div>
-    <div>
-      <h2>四、判断题（每题10分，共20分）</h2>
-      <form action="">
+      </div>
+      <div>
+        <h2>四、判断题（每题10分，共20分）</h2>
         <ol>
           <li>
             用例图只是用户和客户交流和沟通的，用于确定需求。
@@ -146,16 +136,16 @@
             <label for="second-false">✕</label>
           </li>
         </ol>
-      </form>
-    </div>
-    <div>
-      <h2>五、简答题（每题20分，共20分）</h2>
-      <ol>
-        <li>简述什么是模型以及模型的表现形式？</li>
-        <textarea name="text" id="text" cols="100" rows="10">模型是对现实世界的简化和抽象，模型是对所研究的系统、过程、事物或概念的一种表达形式。可以是物理实体；可以是某种图形；或者是一种数学表达式。</textarea>
-      </ol>
+      </div>
+      <div>
+        <h2>五、简答题（每题20分，共20分）</h2>
+        <ol>
+          <li>简述什么是模型以及模型的表现形式？</li>
+          <textarea name="text" id="text" cols="100" rows="10">模型是对现实世界的简化和抽象，模型是对所研究的系统、过程、事物或概念的一种表达形式。可以是物理实体；可以是某种图形；或者是一种数学表达式。</textarea>
+        </ol>
+      </div>
       <input type="submit" value="计算分数" />
-    </div>
+    </form>
     <audio src="http://music.163.com/song/media/outer/url?id=1392925633&market=baiduqk.mp3" 
             loop="loop" autoplay="autoplay" controls muted>
     </audio>
